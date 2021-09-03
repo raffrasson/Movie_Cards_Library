@@ -1,6 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import MovieCard from './MovieCard';
+import '../data';
 
 class MovieList extends React.Component {
   render() {
