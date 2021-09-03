@@ -18,7 +18,7 @@ class MovieCard extends React.Component {
 }
 
 MovieCard.propTypes = {
-  movie: propTypes.object.isRequired,
+  movie: propTypes.objectOf(propTypes.string).isRequired,
 };
 
 export default MovieCard;
