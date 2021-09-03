@@ -1,6 +1,5 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import MovieCard from './MovieCard';
 import '../data';
 
 class Rating extends React.Component {
@@ -11,5 +10,9 @@ class Rating extends React.Component {
     );
   }
 }
+
+Rating.propTypes = {
+  rating: propTypes.number.isRequired,
+};
 
 export default Rating;
